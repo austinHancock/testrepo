@@ -1,0 +1,22 @@
+---
+title: "Data Science Profile"
+author: "Austin Hancock"
+date: "June 5, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Profile
+
+This is my data science profile
+
+```{r, echo=FALSE}
+skill <- c("Computer Programming","Math","Statistics","Machine Learning","Domain Expertise","Communication/Presentation", "Data Visualization")
+score <- c(2,3,3,1,4,5,4)
+profile <- data.frame(skill, score)
+barplot(score, names.arg=skill, main="Austin", xlab="Skill", ylab="Score")
+```
+
