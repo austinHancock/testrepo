@@ -1,14 +1,3 @@
----
-title: "Data Science Profile"
-author: "Austin Hancock"
-date: "June 5, 2017"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Profile
 
 This is my data science profile
